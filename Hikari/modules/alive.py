@@ -9,16 +9,16 @@ from Hikari.events import register
 from Hikari import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/05c7982e106962b905ef4.jpg"
+PHOTO = "https://graph.org/file/c849057446e2c5d07a2dc.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**ʜɪ [{event.sender.first_name}](tg://user?id={event.sender.id}), ᴀᴋᴜ ᴋᴀᴢᴜ ꭙ ꝛᴏʙᴏᴛ.** \n\n"
+  TEXT = f"**ʜɪ [{event.sender.first_name}](tg://user?id={event.sender.id}), ᴀᴋᴜ ᴀᴜʀᴇʟ x ʀᴏʙᴏᴛ.** \n\n"
   TEXT += "๏ **ᴀᴋᴜ sᴇʟᴀʟᴜ ʜɪᴅᴜᴘ ᴅᴀɴ ʙᴇᴋᴇʀᴊᴀ** \n\n"
-  TEXT += f"๏ **ᴍʏ ᴏᴡɴᴇʀ : [κ λ z υ](https://t.me/disinikazu)** \n\n"
+  TEXT += f"๏ **ᴍʏ ᴏᴡɴᴇʀ : [R E Z A](https://t.me/iniirezaaa)** \n\n"
   TEXT += f"๏ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
   TEXT += f"๏ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
   TEXT += f"๏ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n\n"
   TEXT += "**ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴜᴅᴀʜ ᴍᴇɴᴀᴍʙᴀʜᴋᴀɴ ᴋᴜ ᴅɪsɪɴɪ 🔥**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/KazuxxRobot?start=help"), Button.url("ᴅᴏɴᴀsɪ ​", "https://t.me/kenapatagkazu")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/aurellxrobot?start=help"), Button.url("ᴅᴏɴᴀsɪ ​", "https://t.me/iniirezaaa")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
